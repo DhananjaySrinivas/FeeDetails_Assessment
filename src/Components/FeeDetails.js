@@ -69,7 +69,7 @@ const FeeDetails = () => {
           </option>
         ))}
       </select>
-      <label>Couse:</label>
+      <label>Course:</label>
       <select value={selectedCourse} onChange={handleCourseChange}>
         <option value="">Select a course</option>
         {selectedNationality && coursesList.map((course) => (
